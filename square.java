@@ -1,15 +1,13 @@
-import java.lang.Math;
-public class power {
+public class square {
 
-    public static double power(double a,double b) {
-        return Math.pow(a, b);
+    public static int square(int a) {
+        return a*a;
     }
 
 public static void main(String[] args) {
-        double a1 = 10;
-        double a2 = 3;
+        int a1 = 5;
 
-        double power =power(a1, a2);
-   System.out.println("power : " +power);
+        int square =square(a1);
+   System.out.println("square : " +square);
 }
 }
